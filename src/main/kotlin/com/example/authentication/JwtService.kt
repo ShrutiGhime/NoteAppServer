@@ -6,7 +6,7 @@ import com.auth0.jwt.algorithms.Algorithm
 import com.example.data.model.User
 
 class JwtService {
-
+    //shruti
     private val issuer = "noteServer"
     private val jwtSecret = System.getenv("JWT_SECRET")
     private val algorithm = Algorithm.HMAC512(jwtSecret)
